@@ -43,6 +43,7 @@ body {
     font-family: verdana, sans-serif;
     background-color: #000000d4;
     color: white;
+    padding: 0 70px;
 }
 
 img {
@@ -55,4 +56,33 @@ h1 {
     width: 80%;
     /* padding: 20px; */
     display: inline-block;
+}
+
+.outer-container {
+    border: 15px double #ffffff94;
+    border-radius: 44px;
+    display: table;
+    margin: 0 auto;
+}
+
+.container {
+    border-radius: 30px;
+    padding: 1em;
+    line-height: 1.5em;
+    margin: 0 auto;
+    width: 1050px;
+    border: groove 18px hsl(0, 95.5%, 34.9%);
+}
+
+.gif-holder {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: 50px;
+}
+
+.gif-holder img {
+    border: none;
+    width: 50px;
+    height: auto;
 }
